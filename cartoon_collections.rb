@@ -6,3 +6,7 @@ end
 def summon_captain_planet(string_array)
   string_array.map {|word| word.capitalize + "!"}
 end
+
+def long_planeteer_calls(string_array)
+  string_array.any? {|word| word.length > 4}
+end
