@@ -17,5 +17,6 @@ def find_valid_calls(string_array)
       call_test = calls
       if string_array.find {|word| word == call_test}
         return call_test
+      end
     }
 end
