@@ -14,6 +14,8 @@ end
 def find_valid_calls(string_array)
   valid_calls = ["Earth!", "Wind!", "Fire!", "Water!", "Heart!"]
     valid_calls.each {|calls|
-      string_array.find {|word| word == calls}
+      call_test = calls
+      if string_array.find {|word| word == call_test}
+        return call_test
     }
 end
