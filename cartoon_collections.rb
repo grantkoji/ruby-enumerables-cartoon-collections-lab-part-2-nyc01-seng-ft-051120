@@ -19,4 +19,5 @@ def find_valid_calls(string_array)
         return call_test
       end
     }
+  return nil
 end
